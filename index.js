@@ -978,7 +978,8 @@ builder.defineMetaHandler(async ({ type, id }) => {
                     meta: {
                         id,
                         type: 'series',
-                        name: meta?.title?.split(' - ')[0] || 'Série Arte',
+                        // Modification: Ajout de .replace pour supprimer les (1/2), (2/3) etc.
+                        name: (meta?.title?.split(' - ')[0] || 'Série Arte').replace(/\s*\(\d+\/\d+\)/, ''),
                         poster: image,
                         description: meta?.description,
                         background: image,
