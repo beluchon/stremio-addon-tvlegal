@@ -4,7 +4,7 @@
  * Sources :
  * - France.tv (France 2, 3, 4, 5, franceinfo) - Direct + Replay
  * - Arte.t - Direct + Replay
- * - TF1+ (TF1, TMC, TFX, LCI + FAST) - Direct uniquement (compte requis)
+ * - TF1+ (TF1, TMC,TFX, LCI + FAST) - Direct uniquement (compte requis)
  *
  * @version 1.2.0
  * @license MIT
